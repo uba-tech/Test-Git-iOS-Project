@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		999BAD3A1948D5240041EBE5 /* UBA_TechTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 999BAD391948D5240041EBE5 /* UBA_TechTest.m */; };
 		99AEC39D19478BEF00C461E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AEC39C19478BEF00C461E5 /* Foundation.framework */; };
 		99AEC39F19478BEF00C461E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AEC39E19478BEF00C461E5 /* CoreGraphics.framework */; };
 		99AEC3A119478BEF00C461E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99AEC3A019478BEF00C461E5 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		999BAD381948D5240041EBE5 /* UBA_TechTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBA_TechTest.h; sourceTree = "<group>"; };
+		999BAD391948D5240041EBE5 /* UBA_TechTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBA_TechTest.m; sourceTree = "<group>"; };
 		99AEC39919478BEF00C461E5 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AEC39C19478BEF00C461E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99AEC39E19478BEF00C461E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				99AEC3AE19478BEF00C461E5 /* Main.storyboard */,
 				99AEC3B119478BEF00C461E5 /* UBA_TechViewController.h */,
 				99AEC3B219478BEF00C461E5 /* UBA_TechViewController.m */,
+				999BAD381948D5240041EBE5 /* UBA_TechTest.h */,
+				999BAD391948D5240041EBE5 /* UBA_TechTest.m */,
 				99AEC3B419478BEF00C461E5 /* Images.xcassets */,
 				99AEC3A319478BEF00C461E5 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999BAD3A1948D5240041EBE5 /* UBA_TechTest.m in Sources */,
 				99AEC3B319478BEF00C461E5 /* UBA_TechViewController.m in Sources */,
 				99AEC3A919478BEF00C461E5 /* main.m in Sources */,
 				99AEC3AD19478BEF00C461E5 /* UBA_TechAppDelegate.m in Sources */,
@@ -457,6 +463,7 @@
 				99AEC3CD19478BEF00C461E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99AEC3CE19478BEF00C461E5 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				99AEC3D019478BEF00C461E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
